@@ -67,15 +67,15 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/healthy-breakfast-lunch-with-fresh-salad-pastry-orange-juice_1150-24477.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/healthy-breakfast-lunch-with-fresh-salad-pastry-orange-juice_1150-24477.jpg?_wi=1",
           imageAlt: "قيمر عرب طازج",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/cheese-platter-with-yoghurt-herbs-plum_140725-8270.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cheese-platter-with-yoghurt-herbs-plum_140725-8270.jpg?_wi=1",
           imageAlt: "أجبان محلية الصنع",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-bucket-milking-cows-animal-barn_1150-12779.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-bucket-milking-cows-animal-barn_1150-12779.jpg?_wi=1",
           imageAlt: "حليب جاموس طبيعي",
         },
         {
@@ -190,7 +190,7 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/senior-holding-mug-with-milk_23-2148673021.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/healthy-breakfast-lunch-with-fresh-salad-pastry-orange-juice_1150-24477.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/healthy-breakfast-lunch-with-fresh-salad-pastry-orange-juice_1150-24477.jpg?_wi=2",
           imageAlt: "fresh food delivery",
         },
         {
@@ -205,7 +205,7 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/bison-wild-sunny-day_23-2151689004.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/cheese-platter-with-yoghurt-herbs-plum_140725-8270.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cheese-platter-with-yoghurt-herbs-plum_140725-8270.jpg?_wi=2",
           imageAlt: "fresh food delivery",
         },
         {
@@ -220,7 +220,7 @@ export default function LandingPage() {
               imageSrc: "http://img.b2bpic.net/free-photo/smiling-cheerful-woman-unpacking-fast-food-meal-delivery-sitting-sofa-junkfood-homedelivered_482257-8685.jpg",
             },
           ],
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-bucket-milking-cows-animal-barn_1150-12779.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-view-bucket-milking-cows-animal-barn_1150-12779.jpg?_wi=2",
           imageAlt: "fresh food delivery",
         },
       ]}
