@@ -1,0 +1,43 @@
+import type { Metadata } from "next";
+import { Halant } from "next/font/google";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import "@/lib/gsap-setup";
+import { ServiceWrapper } from "@/components/ServiceWrapper";
+import Tag from "@/tag/Tag";
+import { getVisualEditScript } from "@/utils/visual-edit-script";
+import { Montserrat } from "next/font/google";
+
+
+
+export const metadata: Metadata = {
+  title: 'ألبان السيد كامل | أجود منتجات الألبان الطازجة في الحلة',
+  description: 'ألبان السيد كامل في الحلة يوفر أجود منتجات الألبان الطبيعية من حليب الجاموس والبقر، مع تشكيلة مميزة من القيمر والأجبان وخدمة توصيل سريعة.',
+};
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+});
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en" suppressHydrationWarning>
+      <ServiceWrapper>
+        <body className={`${montserrat.variable} antialiased`}>
+          <Tag />
+          {children}
+          <script
+              dangerouslySetInnerHTML={{
+                  __html: `${getVisualEditScript()}`
+              }}
+          />
+        </body>
+      </ServiceWrapper>
+    </html>
+  );
+}
